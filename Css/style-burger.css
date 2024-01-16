@@ -1,0 +1,142 @@
+body {
+  background-color: #000010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.header {
+  font-family: Pacifico, sans-serif;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+li,
+p {
+  color: white;
+  font-family: Macondo, sans-serif;
+  font-size: 20px;
+}
+h2 {
+  font-family: Pacifico, sans-serif;
+  color: white;
+  font-size: 40px;
+  padding-left: 20px;
+}
+h3 {
+  font-family: Pacifico, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+p {
+  padding-left: 20px;
+  padding-top: -20px;
+}
+.section1 {
+  background-color: #7070ff;
+  border-radius: 20px;
+  width: 750px;
+  height: 500px;
+  margin-left: 50px; 
+}
+.image {
+  border-radius: 20px;
+  height: 500px;
+  width: 500px;
+}
+.section2 {
+  background-color: #7070ff;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+.section3 {
+  background-color: #7070ff;
+  border-radius: 20px;
+  width: 750px;
+  height: 1025px;
+  margin-left: 50px;
+  margin-top: 50px;
+
+}
+.section4 {
+  background-color: #7070ff;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin-top: -500px;
+  display: flex;
+  flex-direction: column;
+}
+.links {
+  text-align: center;
+  padding-top: 50px;
+}
+.cont {
+  margin-bottom: 50px;
+}
+hr {
+  width: 800px;
+}
+a {
+  font-family: Macondo, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.recipes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7070ff;
+  border-radius: 10px;
+  width: 150px;
+  border: white solid 2px;
+  margin-left: 0px;
+}
+.recipe1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7070ff;
+  border-radius: 10px;
+  width: 180px;
+  border: white solid 2px;
+}
+.big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.recipe2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7070ff;
+  border-radius: 10px;
+  width: 200px;
+  border: white solid 2px;
+}
+a:hover {
+  color: #000010
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.cont-section1{
+  display: flex;
+  flex-direction: row;
+}
+.cont-section2{
+  display: flex;
+  flex-direction: row;
+}
+
+
